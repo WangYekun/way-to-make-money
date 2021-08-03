@@ -1,0 +1,12 @@
+## [ 新RabbitMQ精讲 提升工程实践能力 培养架构思维](https://docs.qq.com/sheet/DRHZiRXFtb2NRZUhZ?tab=BB08J2 "新RabbitMQ精讲 提升工程实践能力 培养架构思维")
+
+> > V:ititit111222333
+
+```
+      int i = insertAddress(addressDTO);
+        if (i != 1) {
+            throw new ParamsValidateException(SystemResultCode.SYSTEM_EXCEPTION.getCode(), "收货地址添加失败");
+        }
+        return selectAddressById(addressDTO.getId());
+    }
+```
