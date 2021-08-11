@@ -1,0 +1,16 @@
+高并发 高性能 高可用 MySQL 实战
+ 高并发 高性能 高可用 MySQL 实战
+v:ititit111222333
+
+/**
+ * 主键
+ */
+private List<Integer> ids;
+
+public void setIds(Integer ... ids) {
+    this.ids = Arrays.asList(ids);
+}
+
+public void setIds(List<Integer> ids) {
+    this.ids = ids;
+}
