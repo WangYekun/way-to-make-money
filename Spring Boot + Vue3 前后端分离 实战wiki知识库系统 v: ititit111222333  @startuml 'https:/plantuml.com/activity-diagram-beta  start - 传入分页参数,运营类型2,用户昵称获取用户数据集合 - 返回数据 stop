@@ -1,0 +1,10 @@
+ Spring Boot + Vue3 前后端分离 实战wiki知识库系统
+v: ititit111222333
+
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+- 传入分页参数,运营类型2,用户昵称获取用户数据集合
+- 返回数据
+stop
