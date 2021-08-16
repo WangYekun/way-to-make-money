@@ -1,0 +1,11 @@
+Vue3.0高阶实战：开发高质量音乐Web app
+
+V: ititit111222333
+
+String areaCode = queryUserReq.getAreaCode();
+UserAndInfoDTO dto = userInfoManager.getUserInfoByPhone(areaCode, phone);
+if (dto == null) {
+    log.info("查询用户不存在：phone = " + phone);
+    return null;
+}
+return CopyObjectUtils.copyAtoB(dto, UserInfoResp.class);
