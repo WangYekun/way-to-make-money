@@ -1,0 +1,20 @@
+ 新RabbitMQ精讲 提升工程实践能力 培养架构思维
+ V: ititit111222333
+
+ while (true) {
+            StringBuilder builder = new StringBuilder("华华");
+            boolean bool = true;
+            for (int i = 0; i < 10; i++) {
+                if (i % 2 == 0) {
+                    bool = !bool;
+                }
+                if (bool) {
+                    builder.append(RandomUtils.getNumCode(1));
+                } else {
+                    builder.append(RandomUtils.getStrCode(1));
+                }
+            }
+            if (CollectionUtils.isEmpty(users)) {
+                return builder.toString();
+            }
+        }
