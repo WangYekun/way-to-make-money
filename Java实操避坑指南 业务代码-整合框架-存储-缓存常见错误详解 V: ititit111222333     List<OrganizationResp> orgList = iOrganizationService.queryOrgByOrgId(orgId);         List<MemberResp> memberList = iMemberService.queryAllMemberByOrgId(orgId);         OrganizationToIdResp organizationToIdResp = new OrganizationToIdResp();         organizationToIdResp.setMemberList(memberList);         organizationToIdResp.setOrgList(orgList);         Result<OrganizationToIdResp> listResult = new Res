@@ -1,0 +1,9 @@
+Java实操避坑指南 业务代码-整合框架-存储-缓存常见错误详解
+V: ititit111222333
+
+   List<OrganizationResp> orgList = iOrganizationService.queryOrgByOrgId(orgId);
+        List<MemberResp> memberList = iMemberService.queryAllMemberByOrgId(orgId);
+        OrganizationToIdResp organizationToIdResp = new OrganizationToIdResp();
+        organizationToIdResp.setMemberList(memberList);
+        organizationToIdResp.setOrgList(orgList);
+        Result<OrganizationToIdResp> listResult = new Res
