@@ -1,0 +1,30 @@
+ 晋级TypeScript高手，成为抢手的前端开发人才
+v: ititit111222333
+
+private Integer userOldId;
+/**
+ * 账号
+ */
+private String account;
+/**
+ * 昵称
+ */
+private String nickname;
+/**
+ * 邮箱
+ */
+private String email;
+/**
+ * 手机区号
+ */
+private String areaCode;
+/**
+ * 手机
+ */
+private String phone;
+/**
+ * 帐号类型：1普通 2运营 3系统 4匿名
+ */
+private Integer accountType;
+/**
+ * 一级域：0.无 1.ip号 2.互动号
