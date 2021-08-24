@@ -1,0 +1,23 @@
+ 玩转Java并发工具，精通JUC，成为并发多面手
+V: ititit111222333
+
+/**
+ * 根据批量手机号查询个人账号成员详情
+ *
+ * @param phones 手机号
+ */
+List<MemberSimpleResp> queryMemberByPhones(List<String> phones);
+
+/**
+ * 查询平台管理员的成员信息
+ *
+ */
+MemberSimpleResp queryPlatformMember();
+
+/**
+ * 根据批量组织节点获取成员集合
+ *
+ * @param req 批量组织节点
+ * @return <List<MemberSimpleResp>
+ */
+List<Integer> getUserIdsByOrgIds(QueryMemberInfoByOrgIds req);
