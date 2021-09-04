@@ -1,0 +1,8 @@
+ 晋级TypeScript高手，成为抢手的前端开发人才
+V: ititit111222333
+
+// 获取微信用户唯一unionId
+String unionId = dto.getUnionid();
+if (StringUtils.isBlank(unionId)) {
+    throw new ParamsValidateException(AuthResultCode.SYSTEM_EXCEPTION.getCode(), "微信返回unionId为空");
+}
