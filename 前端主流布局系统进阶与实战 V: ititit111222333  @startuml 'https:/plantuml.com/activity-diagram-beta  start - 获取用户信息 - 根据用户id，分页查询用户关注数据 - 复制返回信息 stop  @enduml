@@ -1,0 +1,13 @@
+前端主流布局系统进阶与实战
+V: ititit111222333
+
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+- 获取用户信息
+- 根据用户id，分页查询用户关注数据
+- 复制返回信息
+stop
+
+@enduml
