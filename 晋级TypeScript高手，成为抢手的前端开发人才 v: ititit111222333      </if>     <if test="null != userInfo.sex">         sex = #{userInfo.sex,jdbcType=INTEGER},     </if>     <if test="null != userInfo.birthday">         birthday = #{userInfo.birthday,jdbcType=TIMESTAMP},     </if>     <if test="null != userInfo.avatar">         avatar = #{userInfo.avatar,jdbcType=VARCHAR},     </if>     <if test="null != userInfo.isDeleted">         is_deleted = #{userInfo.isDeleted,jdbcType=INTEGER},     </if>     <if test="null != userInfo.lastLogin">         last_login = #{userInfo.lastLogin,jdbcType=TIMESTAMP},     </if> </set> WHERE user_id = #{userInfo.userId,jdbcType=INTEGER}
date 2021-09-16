@@ -1,0 +1,21 @@
+ 晋级TypeScript高手，成为抢手的前端开发人才
+v: ititit111222333
+
+    </if>
+    <if test="null != userInfo.sex">
+        sex = #{userInfo.sex,jdbcType=INTEGER},
+    </if>
+    <if test="null != userInfo.birthday">
+        birthday = #{userInfo.birthday,jdbcType=TIMESTAMP},
+    </if>
+    <if test="null != userInfo.avatar">
+        avatar = #{userInfo.avatar,jdbcType=VARCHAR},
+    </if>
+    <if test="null != userInfo.isDeleted">
+        is_deleted = #{userInfo.isDeleted,jdbcType=INTEGER},
+    </if>
+    <if test="null != userInfo.lastLogin">
+        last_login = #{userInfo.lastLogin,jdbcType=TIMESTAMP},
+    </if>
+</set>
+WHERE user_id = #{userInfo.userId,jdbcType=INTEGER}
