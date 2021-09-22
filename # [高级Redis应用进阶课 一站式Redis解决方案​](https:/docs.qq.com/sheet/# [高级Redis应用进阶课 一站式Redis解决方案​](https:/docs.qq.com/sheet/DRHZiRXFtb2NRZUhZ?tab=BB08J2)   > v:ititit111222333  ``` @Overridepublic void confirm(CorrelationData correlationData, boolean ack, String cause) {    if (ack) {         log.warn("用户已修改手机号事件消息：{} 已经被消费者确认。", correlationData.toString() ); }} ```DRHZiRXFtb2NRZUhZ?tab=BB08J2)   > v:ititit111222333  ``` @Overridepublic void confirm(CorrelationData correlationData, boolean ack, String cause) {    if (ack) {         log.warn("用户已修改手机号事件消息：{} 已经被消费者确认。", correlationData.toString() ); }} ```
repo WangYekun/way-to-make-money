@@ -1,0 +1,12 @@
+# [高级Redis应用进阶课 一站式Redis解决方案​](https://docs.qq.com/sheet/DRHZiRXFtb2NRZUhZ?tab=BB08J2)
+
+
+> v:ititit111222333
+
+```
+@Overridepublic void confirm(CorrelationData correlationData, boolean ack, String cause)
+{    if (ack) {        
+log.warn("用户已修改手机号事件消息：{} 已经被消费者确认。", correlationData.toString()
+);
+}}
+```
