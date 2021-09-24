@@ -1,0 +1,15 @@
+ # [** ​Java异常与调优一站式解决方案​](https://docs.qq.com/sheet/DRHZiRXFtb2NRZUhZ?tab=BB08J2)​
+
+> v:ititit111222333
+
+
+```
+  connTimeout: 500
+          readTimeout: 30000
+          maxTotalConnections: 8
+          PooledItemSourceFactory:
+            itemSizeInBytes: 2048000
+            initialPoolSize: 3
+          BatchLimitBackoffPolicy:
+            maxBatchesInFlight: 4
+```
