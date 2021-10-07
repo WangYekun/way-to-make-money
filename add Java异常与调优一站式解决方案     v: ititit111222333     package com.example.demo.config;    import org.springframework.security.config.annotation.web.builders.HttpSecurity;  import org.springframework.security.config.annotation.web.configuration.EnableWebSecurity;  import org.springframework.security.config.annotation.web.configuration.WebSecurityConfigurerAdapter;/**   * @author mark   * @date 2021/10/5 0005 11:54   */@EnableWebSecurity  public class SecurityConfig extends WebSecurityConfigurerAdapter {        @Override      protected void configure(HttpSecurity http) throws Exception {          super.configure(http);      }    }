@@ -1,0 +1,48 @@
+add Java异常与调优一站式解决方案 
+
+
+
+v: ititit111222333 
+
+
+
+package com.example.demo.config;
+
+
+
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+
+
+/**
+
+ * @author mark
+
+ * @date 2021/10/5 0005 11:54
+
+ */
+
+@EnableWebSecurity
+
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+
+
+    @Override
+
+    protected void configure(HttpSecurity http) throws Exception {
+
+        super.configure(http);
+
+    }
+
+
+
+}
+
+
+
