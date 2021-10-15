@@ -1,0 +1,14 @@
+​高并发 高性能 高可用 MySQL 实战
+v:ititit111222333
+
+```
+
+where tenant_id is null
+
+   or tenant_id = '';
+
+where tenant_id is null
+
+   or tenant_id = '';
+
+```
