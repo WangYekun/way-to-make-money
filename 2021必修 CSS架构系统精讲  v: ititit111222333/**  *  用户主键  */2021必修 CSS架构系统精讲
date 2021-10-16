@@ -1,0 +1,32 @@
+2021必修 CSS架构系统精讲
+
+v: ititit111222333
+
+/**
+ *  用户主键
+ */
+private Integer userId;
+/**
+ *  授权用户唯一标识
+ */
+private String openid;
+/**
+ *  当且仅当该应用已获得该用户的 userinfo 授权时，才会出现该字段
+ */
+private String unionid;
+/**
+ *  微信 昵称
+ */
+private String nickName;
+/**
+ *  登录方式：1.web（网页端）、2.app（Android端、IOS端）、3.miniProgram（小程序）
+ */
+private String loginType;
+/**
+ *  小程序appid
+ */
+private String appId;
+/**
+ *  小程序类型：0.微信公众号 1.微信小程序 2.微信平台
+ */
+private Integer appType;
