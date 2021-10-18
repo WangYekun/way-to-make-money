@@ -1,0 +1,18 @@
+SpringBoot 在线协同办公小程序开发 全栈式项目实战
+
+V: ititit111222333
+
+    if (是否为小程序?) then (yes)
+      : 验证并封装小程序用户信息;
+    else (no)
+      : 验证并封装非小程序用户信息;
+    endif
+- 根据手机号判断
+    if (手机号是否为空?) then (yes)
+      : 注册新的用户;
+    else (no)
+      : 获取已存在用户信息;
+    endif
+
+stop
+@enduml
