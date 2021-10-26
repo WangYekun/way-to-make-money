@@ -1,0 +1,8 @@
+Spring Security + OAuth2 精讲 多场景打造企业级认证与授权
+
+V: ititit111222333
+
+} else {
+    result.setMessage(UserResultCode.SYSTEM_EXCEPTION.getMessage());
+    result.setCode(UserResultCode.SYSTEM_EXCEPTION.getCode());
+}
