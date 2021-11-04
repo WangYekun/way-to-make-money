@@ -1,0 +1,20 @@
+新RabbitMQ精讲提升工程实践能力 培养架构思维
+V: ititit111222333
+
+private String version;
+/**
+ * 页面级别的配置数据，例如页面整体风格、色调等作用于当前页面的配置。
+ */
+private Map<String, Object> pageConfig;
+/**
+ * 页面上的组件，按照装修的顺序依次排列，不用考虑组件重复的问题。
+ */
+private List<AbstractComponent> components;
+/**
+ * 是否系统默认页面，false表示由用户自己创建的页面。
+ */
+private Boolean defaultPage;
+
+public Page(int id) {
+    this.id = new PageId(id);
+}
