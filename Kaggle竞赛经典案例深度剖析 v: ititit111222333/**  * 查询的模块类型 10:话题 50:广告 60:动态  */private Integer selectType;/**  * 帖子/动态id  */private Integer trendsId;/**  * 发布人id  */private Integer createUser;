@@ -1,0 +1,17 @@
+Kaggle竞赛经典案例深度剖析
+v: ititit111222333
+
+/**
+ * 查询的模块类型 10:话题 50:广告 60:动态
+ */
+private Integer selectType;
+
+/**
+ * 帖子/动态id
+ */
+private Integer trendsId;
+
+/**
+ * 发布人id
+ */
+private Integer createUser;
