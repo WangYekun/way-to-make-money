@@ -1,0 +1,21 @@
+# Java实操避坑指南
+
+> V: ititit111222333
+
+```
+Arrays.sort(trips, Comparator.comparingInt(o -> o[1]));
+for (int[] trip : trips) {
+    // 先上车
+    capacity -= trip[0];
+    // 车位不够就下车
+    if (capacity < 0) {
+        // 能下的都下完
+        while (!heap.isEmpty() && heap.peek()[2] <= trip[1]) capacity += heap.poll()[0];
+        // 能下完的 下完还不行就返回
+        if (capacity < 0) return false;
+    }
+    // 加到堆里面
+    heap.offer(trip);
+}
+return true;
+```
