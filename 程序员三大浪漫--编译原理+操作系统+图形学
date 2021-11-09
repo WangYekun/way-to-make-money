@@ -1,0 +1,17 @@
+# 程序员三大浪漫--编译原理+操作系统+图形学
+
+> v: ititit111222333
+
+```
+
+@Override
+
+public RenderResponse findRenderBy(RenderRequest request) {
+
+    Query query = new Query();
+
+    return ds.getMongoTemplate().findOne(query, RenderResponse.class);
+
+}
+
+```
