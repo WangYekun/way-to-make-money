@@ -1,0 +1,31 @@
+
+# 2021必修 CSS架构系统精讲
+
+> V: ititit111222333
+
+```
+
+////
+
+////                // 判断布局  HEADER("头部信息", "header"), TOP("导航-顶部", "header"),
+
+////                if (component.getType().equals(RenderPageRequest.DefaultType.HEADER.getName())
+
+////                        || component.getType().equals(RenderPageRequest.DefaultType.TOP.getName())
+
+////                ) {
+
+////                    containerDTO.setType(RenderPageRequest.DefaultType.HEADER.getType());
+
+////                } else {
+
+////                    // MAIN("非头部-顶部", "main")
+
+////                    containerDTO.setType(RenderPageRequest.DefaultType.MAIN.getType());
+
+////                }
+
+////
+
+```
+
