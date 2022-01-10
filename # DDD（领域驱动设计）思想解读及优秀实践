@@ -1,0 +1,13 @@
+# DDD（领域驱动设计）思想解读及优秀实践
+
+> V: ititit111222333
+
+> Q: 849907942
+
+```
+// 2.
+List<TreeNode> list = Convert.toList(TreeNode.class, tree);
+// 3.
+return TreeNode.build(list);
+```
+
