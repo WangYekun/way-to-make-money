@@ -1,0 +1,17 @@
+# SpringBoot+Vue3 项目实战，打造企业级在线办公系统
+
+> V: ititit111222333
+
+> Q: 849907942
+
+```
+//Tpl::output('bind_list', $stre_bid_class_lst);
+//self::profile_enu('index', 'bind_cass');
+//Tpl::showpage('sore_ind_clss.idex');
+
+'current' => $model_store_bind_class->shownowpage(),
+'total' => $model_store_bind_class->gettotalnum()
+前两部分的内容主要是整理了星”的精华帖，以及结合了自己在实际操作中遇到的问题。
+组名。组成数组的各个变量称为数组的分量，也称为数组的元素，有时也称为下标变量。用于区分数组的各个元素的数字编号称为下标
+
+```
