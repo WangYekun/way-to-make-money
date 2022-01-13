@@ -1,0 +1,16 @@
+# React17+Hook+TS4 最佳实践，仿 Jira 企业级项目
+
+> V: ititit111222333
+
+> q: 849907942
+
+```
+    if(empty($v['aclass_cover'])){
+        $v['is_cover'] = 0;
+    }else{
+        $v['is_cover'] = 1;
+    }
+    $v['aclass_cover'] =  cthumb($v['aclass_cover'], 240, $_SESSION['store_id']);
+}
+$this->ajaxData(200, 'success', array('list'=>$aclass_info));
+```
