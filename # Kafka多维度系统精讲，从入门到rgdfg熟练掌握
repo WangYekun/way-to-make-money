@@ -1,0 +1,12 @@
+# Kafka多维度系统精讲，从入门到熟练掌握
+
+> V: ititit111222333
+
+> q: 849907942
+
+```
+@Test
+public void testDate() {
+    // log.info("{}", JSONUtil.toJsonStr(commonService.getFreightTemplateMap(9)));
+    //  log.info("{}", JSONUtil.toJsonStr(commonService.getMarketMap()));
+```
