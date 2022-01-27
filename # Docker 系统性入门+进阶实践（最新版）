@@ -1,0 +1,14 @@
+# Docker 系统性入门+进阶实践（最新版）
+
+> V: ititit111222333
+
+> q: 849907942
+
+
+```
+ObjectOutputStream objectOutputStream = 
+new ObjectOutputStream(new FileOutputStream(
+new File("D://obj"))); 
+objectOutputStream.writeObject(new User("zhangsan", 100)); 
+objectOutputStream.close(); //对象输入流
+```
