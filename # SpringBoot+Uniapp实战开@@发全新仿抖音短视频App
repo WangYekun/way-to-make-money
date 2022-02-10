@@ -1,0 +1,16 @@
+# SpringBoot+Uniapp实战开@@发全新仿抖音短视频App
+
+> V: ititit111222333
+
+> q: 849907942
+
+
+```
+public void run() { //不建议使用 queue.size()==0，
+影响效率。可以使用!queue.isEmpty() if (queue.size() == 0) 
+{ String ele = new Random().nextInt(Integer.MAX_VALUE) + ""; 
+queue.offer(ele); System.out.println("入队元素为" + ele); 
+} 
+}
+
+```
