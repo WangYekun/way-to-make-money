@@ -1,0 +1,14 @@
+# 笑傲Java面试：面霸修炼手册
+
+> V: ititit111222333
+
+> q: 849907942
+
+
+```js
+stem.out.println("请输入圆的半径："); 
+Scanner sc = new Scanner(System.in); 
+c.r = sc.nextFloat(); 
+c.gongShi(); System.out.println("请输入正方形的边长：");
+float bian = sc.nextFloat(); c.zhengFangXing(bian);
+```
