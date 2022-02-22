@@ -1,0 +1,16 @@
+# 基于 React + Redux/Mobx 搞定复杂项目状态管理
+
+> V: ititit111222333
+
+> q: 849907942
+
+
+
+```
+class LazySingleton 
+{ private LazySingleton() { } 
+private static class SingletonHolder { 
+private static LazySingleton instance = new LazySingleton(); } 
+public static LazySingleton getInstance() 
+{ return SingletonHolder.instance; } }
+```
