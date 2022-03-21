@@ -1,0 +1,14 @@
+# SpringBoot 在线协同办公小程序开发 全栈式项目实战
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+
+```js
+/调用工厂方法创建 Optional 实例
+Optional<String> name = Optional.of("Sanaulla");
+//传入参数为 null,抛出 NullPointerException.
+Optional<String> someNull = Optional.of(null);
+方法2：Optional.ofNullable()
+```
