@@ -1,0 +1,11 @@
+ # uni-app从入门到进阶 系统完成项目实战
+
+ > V: ititit111222333
+
+ > Q: 1940379308
+
+ Apache Shiro是Java的一个安全框架。使用Shiro可以非常容易的开发出足够好的应用。
+ 其不仅可以用在JavaSE环境，也可以用在JavaEE环境。Shiro可以帮助我们完成功能：
+ 认证、授权、加密、会话管理、与Web集成、缓存等。
+
+ 三个核心组件：Subject，SecurityManager和Realms。
