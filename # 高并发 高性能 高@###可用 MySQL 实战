@@ -1,0 +1,13 @@
+# 高并发 高性能 高可用 MySQL 实战
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+c final class String
+    implements java.io.Serializable, Comparable<String>,CharSequence {
+    /** The value is used for character storage. */
+    private final char value[];
+
+    /** Cache the hash code for the string */
+    private int hash; // Default to 0
