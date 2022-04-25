@@ -1,0 +1,10 @@
+# SpringBoot 2.x 实战仿B站高性能后端项目
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+Redis是由意大利人Salvatore Sanfilippo（网名：antirez）
+开发的一款内存高速缓存数据库。Redis全称为：Remote Dictionary Server（远程数据服务），
+该软件使用C语言编写，典型的NoSQL数据库服务器。Redis是一个key-value存储系统，它支持丰富的数据类型，
+如：string、list、set、zset(sorted set)、hash。
