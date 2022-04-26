@@ -1,0 +1,19 @@
+​高并发 高性能 高可用 MySQL 实战
+
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+
+
+可以，比如 select id from t where num is 
+
+null 这样的sql也是可以的。
+
+但是最好不要给数据库留NULL，
+
+尽可能的使用NOT NULL填充数据库。不要以为NULL不需要空间，
+
+比如：char(100) 型
+
