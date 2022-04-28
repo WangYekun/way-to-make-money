@@ -1,0 +1,34 @@
+​SpringBoot 在线协同办公小程序开发 全栈式项目实战
+
+
+
+> V: ititit111222333
+
+
+
+> Q: 1940379308
+
+
+
+https://coding.imooc.com/class/485.html
+
+
+
+public class MyThread extends Thread {
+
+    public void run() {
+
+        System.out.println("MyThread.run()");
+
+    }
+
+}
+
+    MyThread myThread1 = new MyThread();
+
+    MyThread myThread2 = new MyThread(); 
+
+    myThread1.start();
+
+    myThread2.start();
+
