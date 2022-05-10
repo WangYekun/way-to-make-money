@@ -1,0 +1,18 @@
+#@2周刷完100道前端优质面试真题
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+public static void main(String args[]) {
+    Thread t = new Thread() {
+        public void run() {
+            pong();
+        }
+    };
+    t.run();
+    System.out.print("ping");
+}
+static void pong() {
+    System.out.print("pong");
+}
