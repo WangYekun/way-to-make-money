@@ -1,0 +1,11 @@
+## DDD（领域驱动设计）思想解读及优秀实践
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+Bean工厂是工厂模式的一个实现，提供了控制反转功能，
+用来把应用的配置和依赖从正真的应用代码中分离。常用的BeanFactory实现有DefaultListableBeanFactory、
+XmlBeanFactory、ApplicationContext等。XMLBeanFactory，
+最常用的就是org.springframework.beans.factory.xml.XmlBeanFactory，
+它根据XML文件中的定义加载beans。该容器从XML文件读取配置元数据并用它去创建一个完全配置的系统或应用。
