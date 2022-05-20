@@ -1,0 +1,10 @@
+### SpringBoot 2.x 实战仿B站高性能后端项目
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+  private final char value[];
+
+    /** Cache the hash code for the string */
+    private int hash; // Default to 0
