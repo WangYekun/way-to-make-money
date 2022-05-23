@@ -1,0 +1,10 @@
+@ Next.js+React+Node系统实战，搞定SSR服务器渲染
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+jsp本质上就是一个Servlet，它是Servlet的一种特殊形式（由SUN公司推出），
+每个jsp页面都是一个servlet实例。Servlet是由Java提供用于开发web服务器应用程序的一个组件，
+运行在服务端，由servlet容器管理，用来生成动态内容。
+一个servlet实例是实现了特殊接口Servlet的Java类，所有自定义的servlet均必须实现Servlet接口。
