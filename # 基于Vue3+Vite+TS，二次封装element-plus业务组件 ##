@@ -1,0 +1,13 @@
+# 基于Vue3+Vite+TS，二次封装element-plus业务组件 ##
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+ private final char value[];
+
+    /** Cache the hash code for the string */
+    private int hash; // Default to 0
+
+    /** use serialVersionUID from JDK 1.0.2 for interoperability */
+    private static final long serialVersionUID = -6849794470754667710L;
