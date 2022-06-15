@@ -1,0 +1,11 @@
+# Java异常与调优一站式解决方案
+
+> V: ititit111222333
+
+> q: 849907942
+
+
+```
+<dubbo:serviceinterface="com.xxx.XxxService" ref="xxxService" version="1.0"/> 
+<dubbo:referenceid="xxxService" interface="com.xxx.XxxService" version="1.0"/>
+```
