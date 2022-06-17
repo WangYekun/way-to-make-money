@@ -1,0 +1,13 @@
+# 面向未来微服务:Spring Cloud Alibaba从入门到进阶
+
+> V: ititit111222333
+
+> Q: 1940379308 
+
+/** The value is used for character storage. */
+private final char value[];
+
+/** Cache the hash code for the string */
+private int hash; // Default to 0
+
+/** use serialVersionUID from JDK 1.0.2 for interoperability */
