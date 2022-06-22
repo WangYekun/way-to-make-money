@@ -1,0 +1,13 @@
+# Spring Security+OAuth2 精讲，打造企业级认证与授权
+
+> V: ititit111222333
+
+> Q: 1940379308
+
+public static void main(String[] args) {
+    String str1 = "hello";
+    String str2 = "he" + new String("llo");
+    String str3 = "he" + "llo";
+    System.err.println(str1 == str2);
+    System.err.println(str1 == str3);
+}
